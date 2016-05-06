@@ -12,6 +12,7 @@
 		B28ACCE51CDC421600EC2D3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28ACCE31CDC421600EC2D3A /* Main.storyboard */; };
 		B28ACCE71CDC421600EC2D3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28ACCE61CDC421600EC2D3A /* Assets.xcassets */; };
 		B28ACCEA1CDC421600EC2D3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28ACCE81CDC421600EC2D3A /* LaunchScreen.storyboard */; };
+		B28ACCF21CDC42E500EC2D3A /* UITextField+Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28ACCF11CDC42E500EC2D3A /* UITextField+Images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B28ACCE61CDC421600EC2D3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B28ACCE91CDC421600EC2D3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B28ACCEB1CDC421600EC2D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B28ACCF11CDC42E500EC2D3A /* UITextField+Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Images.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				B28ACCDF1CDC421600EC2D3A /* AppDelegate.swift */,
 				B28ACCE11CDC421600EC2D3A /* ViewController.swift */,
+				B28ACCF11CDC42E500EC2D3A /* UITextField+Images.swift */,
 				B28ACCE31CDC421600EC2D3A /* Main.storyboard */,
 				B28ACCE61CDC421600EC2D3A /* Assets.xcassets */,
 				B28ACCE81CDC421600EC2D3A /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				B28ACCE21CDC421600EC2D3A /* ViewController.swift in Sources */,
 				B28ACCE01CDC421600EC2D3A /* AppDelegate.swift in Sources */,
+				B28ACCF21CDC42E500EC2D3A /* UITextField+Images.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

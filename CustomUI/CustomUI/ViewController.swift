@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var customTextField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        customTextField.initTextFieldWithImage(image: UIImage(named: "ic_room")!, andPlaceHolder: "Nhập địa chỉ")
+        
     }
 
     override func didReceiveMemoryWarning() {
